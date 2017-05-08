@@ -1,0 +1,125 @@
+/*them thu vien font icon*/
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+.clear{    clear: both;}
+/*clear chong chiem vung khi dung float gom clear 
+left right both ( chong chiem 2 ben)*/
+.jain_container{ margin:0px; padding:0px;}
+.jain_container .medias{margin-top: 15px;}
+.jain_container .medias ul{ padding:0px; margin:0px; }
+.jain_container .medias ul li{  display:inline;  padding:7px 0px;}
+/* .jain_container .medias i {    font-size: 18px;} */
+.jain_container  .navbar-brand{ height:inherit;}
+.jain_container .form-control{border-radius: 0px;border: 2px solid #adadad;}
+.jain_container  .form-horizontal_x{
+    margin-top: 10px;
+}
+.navbar {
+	background: rgba(240,240,240,0);
+}
+/*tao css cho login */
+.form-login-hover {
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+	height: 120px;
+	
+}
+.form-login-hover p {
+	text-align: center; 
+	margin-top: 10px;
+}
+.form-login-hover:hover .header-login {
+    opacity: 1;
+    transform: translateY(-120px);
+    -webkit-transform: translateY(-120px);
+    -moz-transform: translateY(-120px);
+    -ms-transform: translateY(-120px);
+    -o-transform: translateY(-120px);
+}
+
+.form-login-hover img {
+    z-index: 4;
+}
+
+.form-login-hover .header-login{
+    position: absolute;
+    top: 100px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+.form-login-hover .blur-login {            
+    height: 250px;
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+}
+.form-login-hover .panel-heading{
+	height: 40px;
+	width: 100%;
+
+}
+.form-login-hover h3{
+	text-align: center;
+	margin-top: 0px;
+	background-color:#428BCA; 
+	color:white;
+}
+.form-login-hover .header-login-text {
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    height: 250px;
+    text-align: center;
+    top: -20px;
+    width: 100%;
+}
+.form-login-hover .panel{
+	height:160px;
+}
+
+.form-login-hover .panel-body .form-group-login {
+	margin-top: -10px;
+	height: 50px;
+	width: 100%;
+	font-size:  18px;
+}
+/*tao css cho icon muc lien he */
+.nav.navbar-nav li a {
+    color: white;
+    font-size: 15px;
+}
+section #services {
+	margin-top: 10px;
+  text-align: center;
+  transform: translatez(0);
+}
+section #services li {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 0px;
+  list-style: none;
+}
+section #services li div {
+  width: 30px;
+  height: 30px;
+  color: black;
+  font-size: 1.6em;
+  text-align: center;
+  line-height:30px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
